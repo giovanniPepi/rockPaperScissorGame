@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div class="header">
+    <p class="warning"> Press R, P, S to play! </p>   
+    </div>
+    <div class="resultArea">
+    </div>
+    <div class="userChoice">
+        <div data-key="82" class="keyChoice" id="rock">
+            <kbd>R</kbd>
+            <span class ="description">Rock</span>
+        </div>
+        <div data-key="80" class="keyChoice" id="paper">
+            <kbd>P</kbd>
+            <span class ="description">Paper</span>
+        </div>
+        <div data-key="83" class="keyChoice" id="scissors">
+            <kbd>S</kbd>
+            <span class ="description">Scissors</span>
+        </div>
+    </div>
+    
+    <br>
+    <div class="resultHistoryArea">    
+        <p id="history"> </p>    
+    </div>
+    
+</body>
+</html>
